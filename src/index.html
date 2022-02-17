@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="../dist/output.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- owl caruosel css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body class="debug-screens">
+    <!-- header section -->
+    <header class="relative h-[330px]">
+      <div
+        class="container mx-auto px-6 text-center  space-y-2 sm:space-y-3 z-10 relative pt-10"
+      >
+        <img
+          class="mx-auto hover:animate-bounce transition cursor-pointer"
+          src="../images//header-img/tweakgatormainlogo.png"
+          alt="main-logo"
+        />
+        <h1
+          class="text-white font-extrabold text-3xl sm:text-5xl tracking-tight text-center dark:text-white"
+        >
+          TweakGator
+        </h1>
+        <p class="text-xl text-white">
+          The most popular App-store for most popular spoofers,which are
+          included Top Free Paid Applications
+        </p>
+      </div>
+      <div
+        id="particles-js"
+        class="bg-[#8429ff] w-full h-[330px] absolute top-0"
+      ></div>
+    </header>
+    <!-- featured section -->
+    <section class="bg-[#2a3042] pt-12">
+      <div class="container mx-auto max-w-6xl px-4 sm:px-8">
+        <div class="mb-10 flex items-center gap-3">
+          <div class="w-2 h-8 rounded-full bg-[#5a04ca]"></div>
+          <h2 class="text-xl sm:text-2xl font-bold text-white">FEATURED APPS</h2>
+        </div>
+        <div class="slider owl-carousel">
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f1.jpg"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">App Store</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f2.png"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">AppStore++</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f3.png"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">ByPass</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f4.jpg"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">Apple Music++</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f5.jpg"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">Grand Theft Auto: V</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f6.jpeg"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">Grand Theft Auto: San Andreas</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f7.png"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">Spotify++</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+          <div
+            class="featured-card"
+          >
+            <img
+              src="../images/feature-img/f8.jpg"
+              alt="feature-img"
+              class="rounded-lg object-cover"
+            />
+            <h4 class="text-sm sm:text-lg font-bold">Minecraft Pocket Mods</h4>
+            <p class="font-medium text-slate-600">
+              <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- listing section -->
+    <section class="bg-[#222736] py-12">
+      <div class="container mx-auto max-w-6xl px-4 sm:px-8">
+        <div class="flex justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-2 h-6 sm:h-8 rounded-full bg-[#5a04ca]"></div>
+            <h2 class="text-md sm:text-2xl font-bold text-white">ALL APPS</h2>
+          </div>
+          <div class="relative">
+            <i
+              class="fa-solid fa-magnifying-glass input-icon"
+            ></i>
+            <input
+              class="input"
+              type="text"
+              placeholder="Search for apps..."
+            />
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-5 mt-10">
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list1.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list5.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list6.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list7.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list8.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list9.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list10.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list11.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list12.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list13.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list14.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list15.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list16.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list17.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list18.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list19.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list20.png"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+            <div class="listing-card">
+                <div>
+                  <img
+                    class="rounded-xl inline-block w-28 h-28 object-cover"
+                    src="../images/listing item/list1.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="space-y-2">
+                  <span class="text-xs text-slate-500"
+                    >Author:
+                    <span class="text-[#5a04ca] font-bold">TweakGator</span></span
+                  >
+                  <div class="flex items-center gap-2 sm:gap-5 divide-x divide-slate-900">
+                    <h3 class="text-sm sm:text-2xl font-medium text-white">iBlower App</h3>
+                    <p class=" sm:font-medium text-slate-600 sm:text-lg pl-2 sm:pl-4">
+                      <i class="fa-solid fa-star text-yellow-400"></i> 5.0
+                    </p>
+                  </div>
+                  <p class="text-sm sm:text-lg text-slate-400">
+                    Blow out lighter with your mobile phone.
+                  </p>
+                </div>
+                <div class="absolute top-4 right-5 sm:right-10">
+                  <i class="fab fa-android text-slate-300 sm:text-xl sm:p-1"></i>
+                  <i class="fa-brands fa-apple text-slate-300 sm:text-xl sm:p-1"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-[#1d212e] text-center p-8 text-zinc-700">
+        <p>All trademarks, service marks, trade names, trade dress, product names and logos <br> appearing on the site are the property of their respective owners.</p>
+    </footer>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- particle js -->
+    <script src="../js/particle.min.js"></script>
+    <!-- particle app.js -->
+    <script src="../js/particle-app.js"></script>
+    <!-- owl carousel cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- owl caruosel app.js -->
+    <script src="../js/owl-caruosel.app.js"></script>
+    <!-- main js  -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
